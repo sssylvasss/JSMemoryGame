@@ -1,0 +1,48 @@
+body {
+  background-image: url(https://images.theconversation.com/files/420897/original/file-20210913-23828-1xbipdi.png?ixlib=rb-1.1.0&q=45&auto=format&w=754&fit=clip);
+  font-family: 'Roboto', sans-serif;
+}
+
+.main{
+  width: 95vw;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+h1 {
+  color: #fff;
+  margin-left: 20px;
+}
+
+.grid {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.text-button-wrapper{
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.refresh-button {
+  font-size: 24px;
+  color: #fff;
+  background: none;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.refresh-button:hover {
+  color: silver;
+}
